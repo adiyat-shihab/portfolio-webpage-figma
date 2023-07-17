@@ -10,13 +10,15 @@
   color: #21243d;
 }
 body {
-  padding: 0 15%;
   font-family: "Heebo", sans-serif;
+}
+header {
+  padding: 0 15%;
 }
 .head-con {
   padding-top: 1.75rem;
 }
-nav {
+.head-con nav {
   display: flex;
   justify-content: flex-end;
   gap: 2rem;
@@ -56,7 +58,7 @@ nav {
   height: 40vh;
 }
 @media screen and (max-width: 576px) {
-  body {
+  header {
     padding: 0%;
   }
   .nav-con {
