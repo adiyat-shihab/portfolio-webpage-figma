@@ -18,10 +18,15 @@ header {
 .head-con {
   padding-top: 1.75rem;
 }
-.head-con nav {
+.nav-con {
   display: flex;
   justify-content: flex-end;
   gap: 2rem;
+}
+
+.nav-con a {
+  text-decoration: none;
+  color: #000000;
 }
 .first-sec-container {
   display: flex;
@@ -88,5 +93,8 @@ header {
     width: 80%;
     height: auto;
     margin: auto;
+  }
+  .post-nav-para {
+    display: none;
   }
 }
