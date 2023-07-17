@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* this section is created for basically multiple styling in one class */
+.p-font {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #21243d;
+}
+body {
+  padding: 0 15%;
+  font-family: "Heebo", sans-serif;
+}
+.head-con {
+  padding-top: 1.75rem;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+.first-sec-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.head-heading {
+  margin-bottom: 40px;
+  width: 506px;
+  height: 105px;
+  color: var(--dark-color, #21243d);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+.head-paragraph {
+  width: 497px;
+  height: 66px;
+}
+.header-content button {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background: #ff6464;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+.img-person {
+  width: 20vw;
+  height: 40vh;
+}
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0%;
+  }
+  .nav-con {
+    justify-content: center;
+  }
+  .first-sec-container {
+    flex-direction: column-reverse;
+    margin-top: 33px;
+    justify-content: unset;
+    gap: 43px;
+    height: auto;
+  }
+  .header-content {
+    text-align: center;
+    margin-bottom: 58px;
+  }
+  .img-person {
+    width: auto;
+    height: auto;
+  }
+  .head-heading {
+    width: auto;
+    height: auto;
+    margin-left: 31px;
+    margin-right: 31px;
+  }
+  .head-paragraph {
+    width: auto;
+    height: auto;
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+  .header-content button {
+    margin-right: 84px;
+    margin-left: 84px;
+  }
+}
