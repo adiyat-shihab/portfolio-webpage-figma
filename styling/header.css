@@ -80,19 +80,13 @@ header {
     height: auto;
   }
   .head-heading {
-    width: auto;
+    width: 80%;
     height: auto;
-    margin-left: 31px;
-    margin-right: 31px;
+    margin: auto;
   }
   .head-paragraph {
-    width: auto;
+    width: 80%;
     height: auto;
-    margin-left: 23px;
-    margin-right: 23px;
-  }
-  .header-content button {
-    margin-right: 84px;
-    margin-left: 84px;
+    margin: auto;
   }
 }

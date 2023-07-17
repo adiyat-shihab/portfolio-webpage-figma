@@ -51,4 +51,7 @@
   .post-content h1 {
     width: auto;
   }
+  .posting {
+    align-items: center;
+  }
 }
